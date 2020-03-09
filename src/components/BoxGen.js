@@ -33,7 +33,7 @@ const BoxGen = () => {
         <div>
             <h1>Color</h1>
             <form onSubmit={onSubmitHandler}>
-                <input type="text" name="color" onChange={onChangeHandler} />
+                <input type="text" name="color" onChange={onChangeHandler} value={state.color} />
                 <input type="submit" value="Add"/>
             </form>
             <div>
